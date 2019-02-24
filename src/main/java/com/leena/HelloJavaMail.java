@@ -14,8 +14,8 @@ public class HelloJavaMail {
     public static void main(String[] args) {
         final String host = "smtp.sendgrid.net";
         final String port ="587";
-        final String user = "lsleena";
-        final String password = "@Samarth1a";
+        final String user = "";
+        final String password = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host",host);
@@ -36,7 +36,7 @@ public class HelloJavaMail {
 
             message.addRecipient(Message.RecipientType.TO,new InternetAddress("Leena.patil@kwartile.com"));
             message.setSubject("javatpoint");
-            message.setText("This is simple program of sending email using JavaMail API");
+            message.setText("This is simple program of sending email using JavaMail API lets see if this works");
 
             //send the message
             Transport.send(message);
