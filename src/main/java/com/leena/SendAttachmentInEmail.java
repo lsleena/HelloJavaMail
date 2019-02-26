@@ -51,7 +51,7 @@ public class SendAttachmentInEmail {
         final String host = "smtp.sendgrid.net";
         final String port ="587";
         final String username = "lsleena";
-        final String password = "@Kwartile1a";
+        final String password = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", host);

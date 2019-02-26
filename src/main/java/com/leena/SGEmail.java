@@ -35,7 +35,7 @@ import java.util.Properties;
 public class SGEmail {
 
     private static final String SMTP_AUTH_USER = "lsleena";
-    private static final String SMTP_AUTH_PWD = "@Kwartile1a";
+    private static final String SMTP_AUTH_PWD = "";
     private static final String SMTP_HOST_NAME = "smtp.sendgrid.net";
 
     private InternetAddress to;
