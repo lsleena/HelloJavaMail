@@ -12,7 +12,7 @@ import javax.mail.Store;
 
 //Not tested ...Just Reviewed
 
-public class CheckingMails {
+public class CheckingMail {
 
     public static void check(String host, String storeType, String user,
                              String password)

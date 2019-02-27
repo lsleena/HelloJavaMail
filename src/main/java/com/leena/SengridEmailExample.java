@@ -32,7 +32,7 @@ import java.util.Properties;
  *
  * @version 1.0
  */
-public class SGEmail {
+public class SengridEmailExample {
 
     private static final String SMTP_AUTH_USER = "lsleena";
     private static final String SMTP_AUTH_PWD = "";
@@ -147,7 +147,7 @@ public class SGEmail {
 
     public static void main(String[] args) {
 
-        SGEmail email = new SGEmail();
+        SengridEmailExample email = new SengridEmailExample();
         email.to("leena.patil@kwartile.com", "Leena Patil");
         email.from("leena.patil@kwartile.com", "Leena Patil");
         email.subject("Leena is sending test email");
